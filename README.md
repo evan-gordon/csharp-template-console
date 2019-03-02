@@ -18,12 +18,20 @@ Enjoy :)</br>
 
 ## To Run
 ```
-dotnet run src/
+# from root dir
+dotnet run --project src/
+
+# from src/ dir
+dotnet run
 ```
 
 ## To Test
 ```
-dotnet test test/
+# root dir
+dotner run test/
+
+# from test/ dir
+dotnet test
 ```
 
 ### Contribution
